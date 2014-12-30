@@ -3,7 +3,7 @@ lwjgl-packaging
 
 ### Goal ###
 
-A `gradle.build` script demonstrating the packaging of an LWJGL-dependant project as either a standalone jar or a Windows executable.
+A `gradle.build` script demonstrating the packaging of an LWJGL-dependent project as either a standalone jar or a Windows executable.
 
 The "Space Invaders" demo LWJGL program is included so as to provide a full-fledged sample.
 
@@ -28,8 +28,8 @@ To test this under Eclipse:
 
 ### Acknowledgements ###
 
-This scripts builds upon the [Capsule](https://github.com/puniverse/capsule), [gradle-capsule-plugin](https://github.com/danthegoodman/gradle-capsule-plugin), [gradle-natives](https://github.com/cjstehno/gradle-natives) and [launch4j](http://launch4j.sourceforge.net/) tools.
+This script builds upon the [Capsule](https://github.com/puniverse/capsule), [gradle-capsule-plugin](https://github.com/danthegoodman/gradle-capsule-plugin), [gradle-natives](https://github.com/cjstehno/gradle-natives) and [launch4j](http://launch4j.sourceforge.net/) tools.
 
 It ships with the "Space Invader" [LWJGL example game](http://wiki.lwjgl.org/index.php?title=Space_Invaders_Example_Game), on which I do not claim any right.
 
-The following articles were used as a starting point: [Going Native with Gradle](https://github.com/cjstehno/coffeaelectronica/wiki/Going-Native-with-Gradle), [An Opinionated Guide to Modern Java, Part 2](http://blog.paralleluniverse.co/2014/05/08/modern-java-pt2/).
+The following articles were used as starting points: [Going Native with Gradle](https://github.com/cjstehno/coffeaelectronica/wiki/Going-Native-with-Gradle), [An Opinionated Guide to Modern Java, Part 2](http://blog.paralleluniverse.co/2014/05/08/modern-java-pt2/).
