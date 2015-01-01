@@ -17,6 +17,15 @@ The following Gradle tasks are available:
 
 Both the jar and executable can be launched "as is". In particular, the Capsule framework takes care of setting up `java.library.path` so as to link to the native LWJGL libraries.
 
+### Using this Script to Package your Code ###
+* Copy ``build.gradle`` at the root of your project.
+* Ensure that your project layout follow maven/gradle conventions (code in ``src/main/java``, resources in ``src/main/resources``).
+* If under Eclipse, convert your project to a Gradle one (see "Eclipse setup" below).
+* At least adjust the value of ``mainClass``, have a look at other variables.
+* Use ``myCapsule`` or ``launch4j`` task to package your code.
+
+I did not add the MIT license at the beginning of the script to keep things simple, but if you use it please consider making a reference to this project page if at all reasonable.
+
 ### Eclipse Setup ###
 
 To test this under Eclipse:
